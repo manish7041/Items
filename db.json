@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "101",
+      "name": "Blue Backpack",
+      "description": "A sturdy backpack with multiple compartments, perfect for hiking or daily use."
+    },
+    {
+      "id": "102",
+      "name": "Stainless Steel Water Bottle",
+      "description": "Keep hydrated on-the-go with this sleek, durable water bottle, suitable for hot and cold beverages."
+    },
+    {
+      "id": "103",
+      "name": "Wireless Bluetooth Earbuds",
+      "description": "Enjoy wireless freedom and crystal-clear sound with these ergonomic earbuds, idealforworkouts or commuting."
+    },
+    {
+      "id": "104",
+      "name": "Cotton Crewneck T-Shirt",
+      "description": "A classic wardrobe staple, this comfortable cotton t-shirt offers versatility and style for everyday wear."
+    },
+    {
+      "id": "105",
+      "name": "Leather Wallet",
+      "description": "Organize your essentials in style with this genuine leather wallet, featuring multiple card slots and a sleek design."
+    },
+    {
+      "id": "106",
+      "name": "Portable Phone Charger",
+      "description": "Stay connected wherever you go with this compact power bank, compatible with a wide rngeof devices."
+    },
+    {
+      "id": "107",
+      "name": "Stainless Steel Cooking Pot",
+      "description": "Cook your favorite meals with ease using this durable stainless steel cooking pot, perfect for soups, stews, and more."
+    },
+    {
+      "id": "108",
+      "name": "Canvas Sneakers",
+      "description": "Step out in style with these comfortable canvas sneakers, featuring a classic design and sturdy construction."
+    },
+    {
+      "id": "1091",
+      "name": "hhbjh",
+      "description": "jhgjhg"
+    }
+  ]
+}

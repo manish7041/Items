@@ -1,0 +1,21 @@
+<div class="container p-5">
+  <div class="d-flex gap-2 align-items-center">
+    <img style="height:40px;" src="../../../assets/list_logo.png">
+    <h2 class="fs-2">List Of Item</h2>
+  </div>
+  <div *ngIf="!this.itemsList" class="noData w-100 bg-light">
+    <span>Please Add Item To The List</span>
+  </div>
+  <ng-container *ngIf="this.itemsList">
+    <div class="p-2 mt-2 bg-light d-flex justify-content-between gap-2 itemContainer" *ngFor="let item of itemsList">
+      <ul class="itemList d-flex flex-column gap-3 w-75">
+        <li><span class="font-2">{{item.name}}</span></li>
+        <li class="desp">{{item.description}}</li>
+      </ul>
+      <div class="d-flex flex-column justify-content-around gap-2 px-4">
+        <button class="btn btn-primary" (click)="editItem(item)">Edit</button>
+        <button class="btn btn-danger" (click)="deleteItem(item)">Delete</button>
+      </div>
+    </div>
+  </ng-container>
+</div>

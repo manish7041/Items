@@ -1,0 +1,26 @@
+.itemContainer {
+  position: relative;
+  border-radius: 8px;
+  opacity: 0.9;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.itemContainer:hover {
+  border: 2px solid rgb(3, 3, 3);
+}
+
+.desp {
+  background: rgb(238, 237, 232);
+  border-radius: 6px;
+  padding: 20px;
+}
+.noData {
+  height: 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}

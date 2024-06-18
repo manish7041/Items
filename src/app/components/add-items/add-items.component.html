@@ -1,0 +1,25 @@
+<div class="Container">
+  <div class="bg-light d-flex justify-content-between p-2 align-items-center content">
+    <div class=" w-100 p-5">
+      <form class="d-flex flex-column gap-4 w-100" [formGroup]="itemForm"  (ngSubmit)="addItem()">
+        <div class="d-flex flex-column p-2 itemsName">
+          <label for="itemName">Name:</label>
+          <input class="p-2" type="text" id="itemName" formControlName="name">
+          <span class="text-danger" *ngIf="itemForm.get('name').invalid && itemForm.get('name').touched">name is required</span>
+        </div>
+        <div class="d-flex flex-column p-2">
+          <label for="itemDescription">Description:</label>
+          <textarea style="resize: none;" class="p-2" name="" id="itemDescription" cols="30" rows="13" formControlName="description" ></textarea>
+          <span class="text-danger" *ngIf="itemForm.get('description').invalid && itemForm.get('description').touched">description is required</span>
+
+        </div>
+        <button class="btn btn-primary" type="submit" [disabled]="!itemForm.valid">
+     {{submitAction}}
+        </button>
+      </form>
+    </div>
+    <button class="btn btn-danger align-self-start" (click)="closeAddItem()">close</button>
+  </div>
+
+
+</div>

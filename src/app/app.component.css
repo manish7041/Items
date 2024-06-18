@@ -1,0 +1,10 @@
+.mainContainer{
+  position: relative;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: rgb(198, 208, 208);
+}
+
+ul{
+  list-style-type: none;
+}

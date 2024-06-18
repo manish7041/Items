@@ -1,0 +1,24 @@
+<div class="bg-danger h-100 mainContainer w-100">
+  <header class="bg-dark">
+    <div class="d-flex justify-content-between  align-items-center p-2 px-4">
+      <div class="float-start">
+        <a href="area">
+          <img src="../assets/Item-Logo.jpg" alt="logo" height="40px" />
+        </a>
+      </div>
+      <nav class="area_nav_header d-flex justify-content-center align-items-center">
+        <ul class="list_nav_header d-flex justify-content-center align-items-center gap-3 mb-0"
+          style="list-style-type: none;color: white;">
+          <li class="btn btn-danger d-flex justify-content-center align-items-center gap-2"
+            style="font-size: 16px;font-weight: 600;cursor: pointer;" (click)="AddItem()">
+            Add Item <span class="fs-4">+</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <app-user-items></app-user-items>
+  <app-add-items *ngIf="openAddItem" [selectedItem]="selectedI" [submitAction]="formAction"
+    (close)="closeAddItem($event)"></app-add-items>
+
+</div>
